@@ -2,7 +2,7 @@
   "name": "music-app",
   "version": "1.0.0",
   "description": "A music app based on Vue.js",
-  "author": "Zero <dengzhouli@163.com>",
+  "author": "l-d-z <dengzhouli@163.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,7 +11,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "fastclick": "^1.0.6",
+    "jsonp": "^0.2.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
