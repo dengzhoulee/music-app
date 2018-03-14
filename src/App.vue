@@ -1,19 +1,18 @@
 <template lang="pug">
-  #app hello world abcdefg
+  #app
+    m-header
+    tab
     router-view
 </template>
 
 <script>
+  import MHeader from 'components/m-header/m-header'
+  import Tab from 'components/tab/tab'
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: { MHeader, Tab }
   }
 </script>
 
-<style lang="sass" rel="stylesheet/sass">
-  @import "common/style/variable.sass"
-
-  #app
-    text-align: center
-    color: $color-theme
-    margin-top: 60px
-</style>
+<style lang="sass" rel="stylesheet/sass"></style>
