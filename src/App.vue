@@ -8,15 +8,10 @@
 <script>
   import MHeader from 'components/m-header/m-header'
   import Tab from 'components/tab/tab'
-  import {getRecommend} from './api/recommend'
 
   export default {
     name: 'App',
-    components: { MHeader, Tab },
-    async created () {
-      const data = await getRecommend()
-      console.log(data)
-    }
+    components: { MHeader, Tab }
   }
 </script>
 

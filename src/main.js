@@ -4,7 +4,7 @@ import App from './App'
 import store from './store'
 import router from './router'
 import FastClick from 'fastclick'
-import 'common/style/index.sass'
+import 'assets/style/index.sass'
 
 FastClick.attach(document.body)
 Vue.config.productionTip = false

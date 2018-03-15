@@ -11,13 +11,13 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/recommend': {
-        target: 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg',
-        pathRewrite: {
-          "^/recommend": ''
-        },
-        changeOrigin: true
-      }
+      // '/recommend': {
+      //   target: 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg',
+      //   pathRewrite: {
+      //     "^/recommend": ''
+      //   },
+      //   changeOrigin: true
+      // }
     },
 
     // Various Dev Server settings

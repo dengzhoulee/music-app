@@ -17,8 +17,10 @@ export default function jsonp (url, data, option) {
 export function param (data) {
   let url = ''
   for (let k in data) {
-    let value = data[k] !== undefined ? data[k] : ''
-    url += '&' + k + '=' + encodeURIComponent(value)
+    if (data.hasOwnProperty(k)) {
+      let value = data[k] !== undefined ? data[k] : ''
+      url += '&' + k + '=' + encodeURIComponent(value)
+    }
   }
   return url ? url.substring(1) : ''
 }

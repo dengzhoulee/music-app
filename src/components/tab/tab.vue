@@ -17,7 +17,7 @@
 </script>
 
 <style scoped lang="sass" rel="stylesheet/sass">
-  @import "../../common/style/variable.sass"
+  @import "~assets/style/variable.sass"
 
   .tab
     display: flex

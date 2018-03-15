@@ -11,8 +11,8 @@
 </script>
 
 <style scoped lang="sass" rel="stylesheet/sass">
-  @import "../../common/style/variable.sass"
-  @import "../../common/style/mixin.sass"
+  @import "~assets/style/variable.sass"
+  @import "~assets/style/mixin.sass"
 
   .m-header
     position: relative
